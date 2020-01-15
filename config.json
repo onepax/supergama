@@ -1,0 +1,22 @@
+{
+  "dev": {
+    "db": {
+      "host": "localhost",
+      "port": 111,
+      "user": "user",
+      "password": "password",
+      "database": "database",
+      "connectionLimit": 10
+    }
+  },
+  "prod": {
+    "db": {
+      "host": "localhost",
+      "port": 222,
+      "user": "user",
+      "password": "password",
+      "database": "database",
+      "connectionLimit": 10
+    }
+  }
+}
